@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ html , body , #root  {
+   height: 100%;
+ }
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.header  {
+  background-color: #332e42;
+  color: #fff;
+  padding: 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+
+  &__link {
+      text-decoration: none;
+      color: #a6b5eb;
+      margin: 6px;
+      display: flex;
+      justify-content: flex-start;
+    
+  }
+}
+.header__title{
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  flex-grow: 1;
+  padding: 0.5rem;
+}
+
+footer {
+  background-color: #332e42;
+  color: #fff;
+  padding: 1rem 0.5rem;
+  font-size: 0.75rem;
+}
+
+.imgFondo{
+height: 85vh;
+width: 85vw;
+}
+
+.cards {
+  display: flex;
+  background: #6a5e0a8c;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btnVerMas{
+  color: #e9e4e4;
+  background-color: #3e3d315e;
+  border-radius: 22px;
+  border: solid #3e3d31ad 0.5px;
+  margin: 5px;
+  padding: 5px;
+}
